@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/admin"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/admin"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Appallocationgestionpart"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".AddCarActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_car"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".CreateAllocationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_create_allocation"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR-GOOGLE-API-KEY" />
+
+        <activity
+            android:name=".HistoryMapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_history_map"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".HistoryDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_history_details_view_model"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:label="@string/title_activity_history"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".viewmodels.HistoryViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_history_view_model"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".AvailableCarsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_available_cars"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".viewmodels.AllocateViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_allocate_view_model"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".CarsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cars"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".UserDetails"
+            android:exported="false"
+            android:label="@string/title_activity_user_details"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".AddUserActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_user"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="false"
+            android:label="@string/title_activity_user"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/Theme.Appallocationgestionpart" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Appallocationgestionpart">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

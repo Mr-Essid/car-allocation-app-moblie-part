@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">app-allocation-gestion-part</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_add_user">AddUserActivity</string>
+    <string name="title_activity_user_details">UserDetails</string>
+    <string name="title_activity_cars">CarsActivity</string>
+    <string name="title_activity_allocate_view_model">AllocateViewModel</string>
+    <string name="title_activity_available_cars">AvailableCarsActivity</string>
+    <string name="title_activity_history_view_model">HistoryViewModel</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_history_details_view_model">HistoryDetailsViewModel</string>
+    <string name="title_activity_history_map">HistoryMapActivity</string>
+    <string name="title_activity_create_allocation">CreateAllocationActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_add_car">AddCarActivity</string>
+</resources>
